@@ -232,6 +232,7 @@ header.sticky{
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
+    margin-top: 80px;
 }
 
 .about-img img{
@@ -266,6 +267,7 @@ header.sticky{
 /* ------------------ Portfolio Section ----------------------  */
 .heading{
 	text-align: center;
+    margin-top: 50px;
 }
 .heading h2{
 	font-size: var(--h2-font);

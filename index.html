@@ -51,7 +51,7 @@
         </div>
     </section>
     <!--------sub service---->
-    <section class="sub-service">
+    <section class="sub-service" id="about">
         <div class="items">
 
             <div class="sub-box">
@@ -82,7 +82,7 @@
     </section>
 
     <!--------About---->
-    <section class="about" id="about">
+    <section class="about" >
         <div class="about-img">
             <img src="img/about.jpg">
         </div>
@@ -157,7 +157,7 @@
         </div>
     </section>
     <!--------work---->
-    <section class="cta">
+    <section class="cta" id="service">
         <div class="heading">
             <h2>Completed 5+ Projects <br> Successfully</h2>
         </div>
@@ -202,20 +202,6 @@
     <div class="ends">
         <p>Made by Nizami Sevindi © 2024</p>
     </div>
-
-    <!--------Navbar Scroll---->
-    <script>
-        window.onscroll = function () { changeNavbarColor() };
-
-        function changeNavbarColor() {
-            let navbar = document.querySelector('.navbar');
-            if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
-                navbar.style.backdropFilter = "blur(5px)";
-            } else {
-                navbar.style.backdropFilter = "blur(0)";
-            }
-        }
-    </script>
 </body>
 
 </html>
